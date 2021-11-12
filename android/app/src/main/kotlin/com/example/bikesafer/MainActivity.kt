@@ -1,4 +1,4 @@
-package com.example.bikesafer
+package com.example.avanapp
 
 import io.flutter.embedding.android.FlutterActivity
 

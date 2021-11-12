@@ -1,0 +1,64 @@
+{
+    "flutter":[
+        {
+            "description":"Android Studio",
+            "done":true
+        },
+        {
+            "description":"XCode",
+            "done":true
+        },
+        {
+            "description":"XCtest",
+            "done":false
+        },
+        {
+            "description":"Espresso",
+            "done":false
+        },
+        {
+            "description":"Criacao de plugins",
+            "done":false
+        },
+        {
+            "description":"Modularizacao (AAR)",
+            "done":false
+        },
+        {
+            "description":"CocoaPods",
+            "done":true
+        },
+        {
+            "description":"External integration",
+            "done":true
+        },
+        {
+            "description":"Testes automátizados",
+            "done":false
+        },
+        {
+            "description":"Clean Architecture",
+            "done":true
+        },
+        {
+            "description":"GraphQL",
+            "done":true
+        },
+        {
+            "description":"Socket",
+            "done":false
+        },
+        {
+            "description":"Encryption",
+            "done":false
+        },
+        {
+            "description":"Platform Channels",
+            "done":false
+        },
+        {
+            "description":"Observables",
+            "done":true
+        }
+    ]
+}

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 // LOGIN
-const mainColor = Color(0xFF4e148c);
-const secondColor = Color(0xFF858ae3);
-const thirdColor = Color(0xFF97dffc);
+const mainColor = Color(0xFF2C394B);
+const secondColor = Color(0xFF082032);
+var thirdColor = Color(0xFFFF4C29).withOpacity(0.9);
 
 const blue = Color(0xFF2196F3);
 const red = Color(0xFFF44336);
@@ -12,6 +12,7 @@ const green = Color(0xFF81C784);
 const brown = Color(0xFF795548);
 const grey = Color(0xFF9E9E9E);
 const white = Color(0xFFFFFFFF);
+const whitegrey = Color(0xFFF5F5F5);
 const black = Color(0xFF000000);
 const orange = Color(0xFFFF9800);
 const pink = Color(0xFFE91E63);
@@ -22,9 +23,9 @@ const bluegrey = Color(0xFF607D8B);
 const api = "";
 
 //OTHERS
-const phoneEmpresa = "4002-8922";
-const emailEmpresa = "contato@setytecnologias.com";
-const siteEmpresa = "https://setytecnologia.com.br/";
-const linkedInEmpresa = "https://www.linkedin.com/company/setytecnologia/";
-const facebookEmpresa = "https://www.facebook.com/SetyTecnologia";
-const InstagramEmpresa = "https://www.instagram.com/sety.tecnologia/";
+const phoneEmpresa = "";
+const emailEmpresa = "";
+const siteEmpresa = "";
+const linkedInEmpresa = "";
+const facebookEmpresa = "";
+const InstagramEmpresa = "";

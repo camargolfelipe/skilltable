@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:avanapp/components/splashscreen.dart';
+import 'package:avanapp/pages/badge.dart';
+import 'package:avanapp/pages/home.dart';
+import 'package:avanapp/pages/login.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 final appRoutes = {
-  '/': (context) => Container(),
+  '/': (context) => LoginPage(),
+  '/badge': (context) => BadgePage(),
+  '/home': (context) => HomePage(),
+  '/splash': (context) => Splashscreen(),
 };
 
 //FUNCTIONS

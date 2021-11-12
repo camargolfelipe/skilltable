@@ -1,5 +1,5 @@
-import 'package:pattern/helper/preferences.dart';
-import 'package:pattern/helper/routes.dart';
+import 'package:avanapp/helper/preferences.dart';
+import 'package:avanapp/helper/routes.dart';
 import 'package:flutter/material.dart';
 
 class PrimaryButton extends StatelessWidget {

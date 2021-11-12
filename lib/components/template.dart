@@ -1,6 +1,8 @@
-import 'package:pattern/helper/preferences.dart';
-import 'package:pattern/helper/routes.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/get.dart';
+import 'package:avanapp/helper/preferences.dart';
 import 'package:flutter/material.dart';
+import 'package:avanapp/helper/routes.dart';
 
 class Template extends StatelessWidget {
   List<Widget> widget;
@@ -8,20 +10,26 @@ class Template extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            simpleRoute(context, '/ride');
-          },
-          backgroundColor: mainColor,
-          child: Icon(
-            Icons.directions_bike_sharp,
-            color: white,
-          ),
-        ),
         backgroundColor: secondColor,
         appBar: AppBar(
+          leading: Container(),
+          centerTitle: true,
+          title: Text(
+            'Luís Felipe Camargo',
+            style: TextStyle(fontSize: 16.0),
+          ),
           backgroundColor: mainColor,
           elevation: 0,
+          actions: [
+            IconButton(
+                onPressed: () {
+                  simpleRoute(context, '/badge');
+                },
+                icon: Icon(
+                  FontAwesomeIcons.idBadge,
+                  color: white,
+                ))
+          ],
         ),
         body: Container(
           decoration: BoxDecoration(
@@ -33,7 +41,10 @@ class Template extends StatelessWidget {
           ),
           child: Padding(
             padding: const EdgeInsets.all(16.0),
-            child: ListView(children: widget),
+            child: SingleChildScrollView(
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: widget)),
           ),
         ));
   }
